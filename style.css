@@ -1,0 +1,84 @@
+/*variables*/
+/*variable backgroud*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.mainContacto {
+  height: 800px;
+}
+
+.formContacto {
+  height: 700px;
+}
+
+.altItem {
+  height: 450px;
+}
+
+header div div {
+  font-family: "Pacifico", cursive;
+}
+
+header div div h1 {
+  font-size: 6em;
+  font-family: "Pacifico", cursive;
+}
+
+header div div h3 {
+  font-size: 2em;
+  color: black;
+}
+
+.tituHoja {
+  -webkit-animation-name: resaltar;
+          animation-name: resaltar;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(#3d3939));
+  background: linear-gradient(white, #3d3939);
+}
+
+.rot:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+@-webkit-keyframes resaltar {
+  0% {
+    text-shadow: 0;
+  }
+  50% {
+    text-shadow: 1px 1px 2px black, 0 0 1em #08083a, 0 0 0.2em #5b5b6e;
+    color: white;
+  }
+  100% {
+    text-shadow: 0;
+  }
+}
+
+@keyframes resaltar {
+  0% {
+    text-shadow: 0;
+  }
+  50% {
+    text-shadow: 1px 1px 2px black, 0 0 1em #08083a, 0 0 0.2em #5b5b6e;
+    color: white;
+  }
+  100% {
+    text-shadow: 0;
+  }
+}
+
+.size {
+  height: 40rem;
+}
+/*# sourceMappingURL=style.css.map */
